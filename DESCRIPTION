@@ -17,5 +17,12 @@ Suggests:
     covr,
     testthat (>= 2.1.0)
 Imports: 
-    dplyr
+    dplyr,
+    sf,
+    ggplot2,
+    forcats,
+    viridis,
+    stringr
+Depends:
+    R (>= 2.10)
 RoxygenNote: 6.1.1
