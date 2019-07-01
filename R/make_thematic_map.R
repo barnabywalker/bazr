@@ -43,8 +43,8 @@ make_thematic_map <- function(.data, fill_var, .map=NULL, join_by=NULL,
   }
 
   if (length(breaks) == 1) {
-    break_min <- .data %>% pull(!! fill_var) %>% min()
-    break_max <- .data %>% pull(!! fill_var) %>% max()
+    break_min <- .data %>% pull(!! fill_var) %>% min(na.rm=TRUE)
+    break_max <- .data %>% pull(!! fill_var) %>% max(na.rm=TRUE)
 
     break_min <- break_min - break_min * 0.05
 
