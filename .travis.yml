@@ -5,3 +5,8 @@ cache: packages
 
 after_success:
   - Rscript -e 'covr::codecov()'
+
+addons:
+  apt:
+    packages:
+      - libudunits2-dev
