@@ -1,0 +1,24 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# `bazr`
+
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/barnabywalker/bazr.svg?branch=master)](https://travis-ci.org/barnabywalker/bazr)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/barnabywalker/bazr?branch=master&svg=true)](https://ci.appveyor.com/project/barnabywalker/bazr)
+[![Codecov test
+coverage](https://codecov.io/gh/barnabywalker/bazr/branch/master/graph/badge.svg)](https://codecov.io/gh/barnabywalker/bazr?branch=master)
+<!-- badges: end --> `bazr` is a package containing functions that I
+find useful, so I don’t have to keep defining them in all my projects.
+
+## Installation
+
+You can install `bazr` from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("barnabywalker/bazr")
+```
